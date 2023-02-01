@@ -1,0 +1,315 @@
+************************************* Invoked: Wed Mar 16 12:59:19 2022
+[0] Arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64
+[2] Operations sanity check succeeded.
+[2] Language: en-US
+[1721] Preparing meta information download...
+[4096] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+[106012] Installation space required: "883.43 MB" Temporary space required: "256.00 MB" Local repository size: "0.00 bytes"
+[106014] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "86.54 GB"
+[107300] backup  operation: Mkdir
+[107300] 	- arguments: /Applications/EnergyPlus-9-5-0
+[107301] Done
+[107302] perform  operation: Mkdir
+[107302] 	- arguments: /Applications/EnergyPlus-9-5-0
+[107302] Done
+[107304] Preparing the installation...
+[107304] Install size: 7 components
+[109683] Installing component Create Symlinks - requires admin
+[109710] "Execute" as admin: true
+[109710] backup Symlinks operation: Execute
+[109710] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Basement, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Basement
+[109710] Done
+[109713] perform Symlinks operation: Execute
+[109713] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Basement, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Basement
+[109713] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Basement /usr/local/bin
+[109718] Done
+[109719] "Execute" as admin: true
+[109719] backup Symlinks operation: Execute
+[109719] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/BasementGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/BasementGHT.idd
+[109719] Done
+[109719] perform Symlinks operation: Execute
+[109719] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/BasementGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/BasementGHT.idd
+[109719] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/BasementGHT.idd /usr/local/bin
+[109723] Done
+[109724] "Execute" as admin: true
+[109725] backup Symlinks operation: Execute
+[109725] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/convertESOMTRpgm/convertESOMTR, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/convertESOMTR
+[109725] Done
+[109725] perform Symlinks operation: Execute
+[109725] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/convertESOMTRpgm/convertESOMTR, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/convertESOMTR
+[109726] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PostProcess/convertESOMTRpgm/convertESOMTR /usr/local/bin
+[109729] Done
+[109729] "Execute" as admin: true
+[109729] backup Symlinks operation: Execute
+[109729] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/energyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/energyplus
+[109729] Done
+[109729] perform Symlinks operation: Execute
+[109729] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/energyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/energyplus
+[109729] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/energyplus /usr/local/bin
+[109732] Done
+[109732] "Execute" as admin: true
+[109732] backup Symlinks operation: Execute
+[109732] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/Energy+.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.idd
+[109732] Done
+[109733] perform Symlinks operation: Execute
+[109733] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/Energy+.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.idd
+[109733] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/Energy+.idd /usr/local/bin
+[109736] Done
+[109736] "Execute" as admin: true
+[109736] backup Symlinks operation: Execute
+[109736] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/Energy+.schema.epJSON, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.schema.epJSON
+[109736] Done
+[109736] perform Symlinks operation: Execute
+[109736] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/Energy+.schema.epJSON, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.schema.epJSON
+[109737] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/Energy+.schema.epJSON /usr/local/bin
+[109741] Done
+[109741] "Execute" as admin: true
+[109742] backup Symlinks operation: Execute
+[109742] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/EPMacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EPMacro
+[109742] Done
+[109742] perform Symlinks operation: Execute
+[109742] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/EPMacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EPMacro
+[109742] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/EPMacro /usr/local/bin
+[109745] Done
+[109745] "Execute" as admin: true
+[109745] backup Symlinks operation: Execute
+[109745] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/ExpandObjects, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ExpandObjects
+[109745] Done
+[109745] perform Symlinks operation: Execute
+[109745] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/ExpandObjects, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ExpandObjects
+[109746] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/ExpandObjects /usr/local/bin
+[109748] Done
+[109748] "Execute" as admin: true
+[109748] backup Symlinks operation: Execute
+[109748] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/HVAC-Diagram, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/HVAC-Diagram
+[109748] Done
+[109749] perform Symlinks operation: Execute
+[109749] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/HVAC-Diagram, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/HVAC-Diagram
+[109749] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PostProcess/HVAC-Diagram /usr/local/bin
+[109751] Done
+[109752] "Execute" as admin: true
+[109752] backup Symlinks operation: Execute
+[109752] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/ParametricPreProcessor/ParametricPreprocessor, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ParametricPreprocessor
+[109752] Done
+[109752] perform Symlinks operation: Execute
+[109752] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/ParametricPreProcessor/ParametricPreprocessor, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ParametricPreprocessor
+[109752] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PreProcess/ParametricPreProcessor/ParametricPreprocessor /usr/local/bin
+[109755] Done
+[109755] "Execute" as admin: true
+[109756] backup Symlinks operation: Execute
+[109756] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/ReadVarsESO, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ReadVarsESO
+[109756] Done
+[109756] perform Symlinks operation: Execute
+[109756] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PostProcess/ReadVarsESO, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ReadVarsESO
+[109756] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PostProcess/ReadVarsESO /usr/local/bin
+[109758] Done
+[109759] "Execute" as admin: true
+[109759] backup Symlinks operation: Execute
+[109759] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runenergyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runenergyplus
+[109759] Done
+[109759] perform Symlinks operation: Execute
+[109759] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runenergyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runenergyplus
+[109759] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/runenergyplus /usr/local/bin
+[109762] Done
+[109762] "Execute" as admin: true
+[109762] backup Symlinks operation: Execute
+[109762] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runepmacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runepmacro
+[109762] Done
+[109762] perform Symlinks operation: Execute
+[109762] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runepmacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runepmacro
+[109762] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/runepmacro /usr/local/bin
+[109764] Done
+[109765] "Execute" as admin: true
+[109765] backup Symlinks operation: Execute
+[109765] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runreadvars, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runreadvars
+[109765] Done
+[109765] perform Symlinks operation: Execute
+[109765] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/runreadvars, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runreadvars
+[109765] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/runreadvars /usr/local/bin
+[109767] Done
+[109768] "Execute" as admin: true
+[109768] backup Symlinks operation: Execute
+[109768] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Slab, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Slab
+[109768] Done
+[109768] perform Symlinks operation: Execute
+[109768] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Slab, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Slab
+[109768] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/Slab /usr/local/bin
+[109771] Done
+[109772] "Execute" as admin: true
+[109772] backup Symlinks operation: Execute
+[109772] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/SlabGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/SlabGHT.idd
+[109772] Done
+[109772] perform Symlinks operation: Execute
+[109772] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/SlabGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/SlabGHT.idd
+[109772] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/PreProcess/GrndTempCalc/SlabGHT.idd /usr/local/bin
+[109774] Done
+[109775] "Execute" as admin: true
+[109775] backup Symlinks operation: Execute
+[109775] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/energyplus.1, /usr/local/share/man/man1, UNDOEXECUTE, rm, /usr/local/share/man/man1/energyplus.1
+[109775] Done
+[109775] perform Symlinks operation: Execute
+[109775] 	- arguments: ln, -sf, /Applications/EnergyPlus-9-5-0/energyplus.1, /usr/local/share/man/man1, UNDOEXECUTE, rm, /usr/local/share/man/man1/energyplus.1
+[109775] ln" started, arguments: "-sf /Applications/EnergyPlus-9-5-0/energyplus.1 /usr/local/share/man/man1
+[109777] Done
+[109779] Installing component Datasets
+[109779] backup Datasets operation: Extract
+[109779] 	- arguments: installer://Datasets/9.5.0DataSets.7z, /Applications/EnergyPlus-9-5-0
+[109779] Done
+[109779] perform Datasets operation: Extract
+[109779] 	- arguments: installer://Datasets/9.5.0DataSets.7z, /Applications/EnergyPlus-9-5-0
+[109919] Done
+[109920] backup Datasets operation: Extract
+[109920] 	- arguments: installer://Datasets/9.5.0MacroDataSets.7z, /Applications/EnergyPlus-9-5-0
+[109920] Done
+[109923] perform Datasets operation: Extract
+[109923] 	- arguments: installer://Datasets/9.5.0MacroDataSets.7z, /Applications/EnergyPlus-9-5-0
+[109950] Done
+[109953] Installing component Documentation
+[109954] backup Documentation operation: Extract
+[109954] 	- arguments: installer://Documentation/9.5.0Documentation.7z, /Applications/EnergyPlus-9-5-0
+[109954] Done
+[109954] perform Documentation operation: Extract
+[109954] 	- arguments: installer://Documentation/9.5.0Documentation.7z, /Applications/EnergyPlus-9-5-0
+[112268] Done
+[112270] Installing component Example Files
+[112271] backup ExampleFiles operation: Extract
+[112271] 	- arguments: installer://ExampleFiles/9.5.0ExampleFiles.7z, /Applications/EnergyPlus-9-5-0
+[112271] Done
+[112271] perform ExampleFiles operation: Extract
+[112271] 	- arguments: installer://ExampleFiles/9.5.0ExampleFiles.7z, /Applications/EnergyPlus-9-5-0
+[113659] Done
+[113661] Installing component Licenses
+[113661] backup Licenses operation: Extract
+[113661] 	- arguments: installer://Licenses/9.5.0content.7z, /Applications/EnergyPlus-9-5-0
+[113661] Done
+[113661] perform Licenses operation: Extract
+[113661] 	- arguments: installer://Licenses/9.5.0content.7z, /Applications/EnergyPlus-9-5-0
+[113662] Done
+[113665] backup Licenses operation: License
+[113665] 	- arguments:
+[113665] Done
+[113665] perform Licenses operation: License
+[113665] 	- arguments:
+[113666] Done
+[113666] Installing component Unspecified
+[113667] backup Unspecified operation: Extract
+[113667] 	- arguments: installer://Unspecified/9.5.0content.7z, /Applications/EnergyPlus-9-5-0
+[113667] Done
+[113667] perform Unspecified operation: Extract
+[113667] 	- arguments: installer://Unspecified/9.5.0content.7z, /Applications/EnergyPlus-9-5-0
+[115078] Done
+[115078] backup Unspecified operation: Extract
+[115078] 	- arguments: installer://Unspecified/9.5.0include.7z, /Applications/EnergyPlus-9-5-0
+[115078] Done
+[115079] perform Unspecified operation: Extract
+[115079] 	- arguments: installer://Unspecified/9.5.0include.7z, /Applications/EnergyPlus-9-5-0
+[115082] Done
+[115083] backup Unspecified operation: Extract
+[115083] 	- arguments: installer://Unspecified/9.5.0PostProcess.7z, /Applications/EnergyPlus-9-5-0
+[115083] Done
+[115083] perform Unspecified operation: Extract
+[115083] 	- arguments: installer://Unspecified/9.5.0PostProcess.7z, /Applications/EnergyPlus-9-5-0
+[115421] Done
+[115421] backup Unspecified operation: Extract
+[115421] 	- arguments: installer://Unspecified/9.5.0PreProcess.7z, /Applications/EnergyPlus-9-5-0
+[115421] Done
+[115421] perform Unspecified operation: Extract
+[115421] 	- arguments: installer://Unspecified/9.5.0PreProcess.7z, /Applications/EnergyPlus-9-5-0
+[116161] Done
+[116162] backup Unspecified operation: Extract
+[116162] 	- arguments: installer://Unspecified/9.5.0pyenergyplus.7z, /Applications/EnergyPlus-9-5-0
+[116162] Done
+[116162] perform Unspecified operation: Extract
+[116162] 	- arguments: installer://Unspecified/9.5.0pyenergyplus.7z, /Applications/EnergyPlus-9-5-0
+[116166] Done
+[116167] backup Unspecified operation: Extract
+[116167] 	- arguments: installer://Unspecified/9.5.0python_standard_lib.7z, /Applications/EnergyPlus-9-5-0
+[116167] Done
+[116167] perform Unspecified operation: Extract
+[116167] 	- arguments: installer://Unspecified/9.5.0python_standard_lib.7z, /Applications/EnergyPlus-9-5-0
+[117553] Done
+[117554] backup Unspecified operation: Extract
+[117554] 	- arguments: installer://Unspecified/9.5.0workflows.7z, /Applications/EnergyPlus-9-5-0
+[117554] Done
+[117555] perform Unspecified operation: Extract
+[117555] 	- arguments: installer://Unspecified/9.5.0workflows.7z, /Applications/EnergyPlus-9-5-0
+[117558] Done
+[117558] backup Unspecified operation: Execute
+[117558] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater.app/Contents/MacOS/IDFVersionUpdater
+[117558] Done
+[117559] perform Unspecified operation: Execute
+[117559] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater.app/Contents/MacOS/IDFVersionUpdater
+[117561] chmod" started, arguments: "+x /Applications/EnergyPlus-9-5-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater.app/Contents/MacOS/IDFVersionUpdater
+[117563] Done
+[117564] backup Unspecified operation: Execute
+[117564] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/EP-Launch-Lite
+[117564] Done
+[117564] perform Unspecified operation: Execute
+[117564] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/EP-Launch-Lite
+[117566] chmod" started, arguments: "+x /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/EP-Launch-Lite
+[117567] Done
+[117568] backup Unspecified operation: Execute
+[117568] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/python
+[117568] Done
+[117568] perform Unspecified operation: Execute
+[117568] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/python
+[117570] chmod" started, arguments: "+x /Applications/EnergyPlus-9-5-0/PreProcess/EP-Launch-Lite.app/Contents/MacOS/python
+[117572] Done
+[117572] backup Unspecified operation: Execute
+[117573] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PostProcess/EP-Compare/EP-Compare.app/Contents/MacOS/EP-Compare
+[117573] Done
+[117573] perform Unspecified operation: Execute
+[117573] 	- arguments: chmod, +x, /Applications/EnergyPlus-9-5-0/PostProcess/EP-Compare/EP-Compare.app/Contents/MacOS/EP-Compare
+[117574] chmod" started, arguments: "+x /Applications/EnergyPlus-9-5-0/PostProcess/EP-Compare/EP-Compare.app/Contents/MacOS/EP-Compare
+[117576] Done
+[117577] Installing component Weather Data
+[117577] backup WeatherData operation: Extract
+[117577] 	- arguments: installer://WeatherData/9.5.0WeatherData.7z, /Applications/EnergyPlus-9-5-0
+[117577] Done
+[117578] perform WeatherData operation: Extract
+[117578] 	- arguments: installer://WeatherData/9.5.0WeatherData.7z, /Applications/EnergyPlus-9-5-0
+[117674] Done
+[117677] backup  operation: Mkdir
+[117677] 	- arguments: /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS
+[117677] Done
+[117689] perform  operation: Mkdir
+[117689] 	- arguments: /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS
+[117690] Done
+[117690] backup  operation: Copy
+[117690] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../PkgInfo, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../PkgInfo
+[117690] Done
+[117691] perform  operation: Copy
+[117691] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../PkgInfo, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../PkgInfo
+[117691] Done
+[117692] backup  operation: Copy
+[117692] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Info.plist, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Info.plist
+[117692] Done
+[117692] perform  operation: Copy
+[117692] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Info.plist, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Info.plist
+[117693] Done
+[117694] perform  operation: CopyDirectory
+[117694] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Resources/qt_menu.nib, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Resources/qt_menu.nib
+[117694] Done
+[117694] backup  operation: Mkdir
+[117694] 	- arguments: /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/Resources
+[117694] Done
+[117694] perform  operation: Mkdir
+[117694] 	- arguments: /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/Resources
+[117694] Done
+[117694] backup  operation: Copy
+[117694] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Resources/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.icns, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Resources/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.icns
+[117694] Done
+[117695] perform  operation: Copy
+[117695] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Resources/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.icns, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Resources/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.icns
+[117695] Done
+[117696] perform  operation: CopyDirectory
+[117696] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../Frameworks, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../Frameworks
+[117696] Done
+[117696] perform  operation: CopyDirectory
+[117696] 	- arguments: /private/var/folders/ng/kp98pfyx0mdglj5zxnkq_fmw0000gn/T/AppTranslocation/01343B18-6A02-4517-B457-D10E783CA7DA/d/EnergyPlus-9.5.0-de239b2e5f-Darwin-macOS10.15-x86_64.app/Contents/MacOS/../plugins, /Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/../plugins
+[117696] Done
+[117698] Writing maintenance tool: "/Applications/EnergyPlus-9-5-0/maintenancetool.app/Contents/MacOS/maintenancetool.new"
+[117698] Writing maintenance tool.
+[117741] Wrote permissions for maintenance tool.
+[117756] Maintenance tool restart: false.
+[117757] Installation finished!

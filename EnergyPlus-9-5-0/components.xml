@@ -1,0 +1,76 @@
+<Packages>
+    <ApplicationName>EnergyPlus</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>Datasets</Name>
+        <Title>Datasets</Title>
+        <Description>Useful resources such as material and equipment performance data</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>26800978</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>Documentation</Name>
+        <Title>Documentation</Title>
+        <Description>EnergyPlus documentation in PDF format</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>55518061</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>ExampleFiles</Name>
+        <Title>Example Files</Title>
+        <Description>IDF Example Files</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>247708292</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>Licenses</Name>
+        <Title>Licenses</Title>
+        <Description>License files for EnergyPlus</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>3207</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>Symlinks</Name>
+        <Title>Create Symlinks - requires admin</Title>
+        <Description>This will symlink the executable to /usr/local/bin and copy the man page</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>Unspecified</Name>
+        <Title>Unspecified</Title>
+        <Description></Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>319380836</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>WeatherData</Name>
+        <Title>Weather Data</Title>
+        <Description>EPW Weather Files</Description>
+        <Version>9.5.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-03-16</InstallDate>
+        <Size>8496291</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>
