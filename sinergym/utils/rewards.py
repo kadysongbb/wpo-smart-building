@@ -10,7 +10,7 @@ from ..utils.common import get_season_comfort_range
 class LinearReward():
 
     def __init__(self,
-                 energy_weight: float = 0.2,
+                 energy_weight: float = 0.5,
                  lambda_energy: float = 1e-4,
                  lambda_temperature: float = 1.0
                  ):
