@@ -440,7 +440,7 @@ class EnergyPlus(object):
                 os.killpg(self._eplus_process.pid, signal.SIGTERM)
                 self._episode_existed = False
             except OSError:
-                os.system("sudo kill %s" % (self._eplus_process.pid, ))
+                print('Subprocess not killed')
 
     def _run_eplus_outputProcessing(self) -> None:
         # If simulator has not been running with reset at least one time this
